@@ -20,6 +20,7 @@ mod speech_synthesis_word_boundary_event;
 mod speech_synthesizer;
 mod synthesis_voices_result;
 mod voice_info;
+mod pronunciation_assessment_config;
 
 // re-export structs directly under speech module
 pub use self::audio_data_stream::AudioDataStream;
@@ -43,3 +44,6 @@ pub use self::speech_synthesis_word_boundary_event::SpeechSynthesisWordBoundaryE
 pub use self::speech_synthesizer::SpeechSynthesizer;
 pub use self::synthesis_voices_result::SynthesisVoicesResult;
 pub use self::voice_info::VoiceInfo;
+pub use self::pronunciation_assessment_config::PronunciationAssessmentConfig;
+pub use self::pronunciation_assessment_config::PronunciationAssessmentGradingSystem;
+pub use self::pronunciation_assessment_config::PronunciationAssessmentGranularity;
